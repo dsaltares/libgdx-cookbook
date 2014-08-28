@@ -1,0 +1,14 @@
+.class
+.war
+build/
+war/
+bin/
+gen/
+.gradle/
+.classpath
+.project
+.settings/
+.ipr
+.iml
+
+/local.properties

@@ -1,0 +1,25 @@
+[
+	{
+		class : "com.siondream.core.entity.components.TransformComponent"
+	},
+
+	{
+		class : "com.siondream.core.entity.components.SpineComponent",
+		name : "data/entities/hero/hero-animation.json"
+	},
+
+	{
+		class : "com.siondream.core.entity.components.PhysicsComponent",
+		name : "data/entities/hero/hero-physics.json"
+	},
+	
+	{
+		class : "com.siondream.core.entity.components.OverridePhysicsComponent",
+		enable : "true",
+		autoDisable : "true"
+	},
+
+	{
+		class : "com.siondream.stealth.entity.components.PlayerControlComponent"
+	}
+]

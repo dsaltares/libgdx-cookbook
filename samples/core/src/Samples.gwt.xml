@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit trunk//EN" "http://google-web-toolkit.googlecode.com/svn/trunk/distro-source/core/src/gwt-module.dtd">
+<module>
+    <source path="aurelienribon/bodyeditor" />
+	<source path="com/cookbook/animation" />
+	<source path="com/cookbook/assetmanager" />
+	<source path="com/cookbook/audio" />
+	<source path="com/cookbook/box2d" />
+	<source path="com/cookbook/inputmapping" />
+	<source path="com/cookbook/scene2d" />
+	<source path="com/cookbook/samples" />	
+	<source path="com/cookbook/platforms" />
+	<source path="com/cookbook/localization" />	
+	<source path="com/cookbook/ai" />	
+	<source path="com/cookbook/tween" />	
+	<source path="com/cookbook/ashley" />	
+</module>

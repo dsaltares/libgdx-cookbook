@@ -1,0 +1,46 @@
+sprites.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+key
+  rotate: false
+  xy: 38, 2
+  size: 15, 9
+  orig: 21, 21
+  offset: 3, 6
+  index: -1
+coin
+  rotate: false
+  xy: 2, 48
+  size: 11, 11
+  orig: 21, 21
+  offset: 5, 5
+  index: -1
+pixel
+  rotate: false
+  xy: 2, 61
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 2, 2
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+enemy
+  rotate: false
+  xy: 15, 48
+  size: 21, 9
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+player
+  rotate: false
+  xy: 2, 25
+  size: 17, 21
+  orig: 21, 21
+  offset: 2, 0
+  index: -1

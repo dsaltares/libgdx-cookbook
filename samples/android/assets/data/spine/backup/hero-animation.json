@@ -1,0 +1,59 @@
+{
+	"defaultBlend": 0.2,
+	"blends": [{
+		"from": "run",
+		"to": "jump",
+		"duration": 0.5
+	},
+	{
+		"from": "jump",
+		"to": "fall",
+		"duration": 0.0
+	},
+	{
+		"from": "fall",
+		"to": "idle",
+		"duration": 0.08
+	},
+	{
+		"from": "fall",
+		"to": "run",
+		"duration": 0.08
+	},
+	{
+		"from": "idle",
+		"to": "run",
+		"duration": 0.5
+	},
+	{
+		"from": "run",
+		"to": "idle",
+		"duration": 0.3
+	},
+	{
+		"from": "run",
+		"to": "punch",
+		"duration": 0.01
+	},
+	{
+		"from": "idle",
+		"to": "punch",
+		"duration": 0.01
+	},
+	{
+		"from": "punch",
+		"to": "run",
+		"duration": 0.00
+	},
+	{
+		"from": "jump",
+		"to": "airPunch",
+		"duration": 0.01
+	},
+	{
+		"from": "airPunch",
+		"to": "fall",
+		"duration": 0.01
+	}
+	]
+}

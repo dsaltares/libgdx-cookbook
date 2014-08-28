@@ -1,0 +1,47 @@
+
+hero-1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+parts/head
+  rotate: true
+  xy: 2, 110
+  size: 488, 466
+  orig: 488, 466
+  offset: 0, 0
+  index: -1
+parts/left-arm
+  rotate: false
+  xy: 470, 2
+  size: 165, 318
+  orig: 165, 318
+  offset: 0, 0
+  index: -1
+parts/left-leg
+  rotate: false
+  xy: 805, 364
+  size: 192, 234
+  orig: 192, 234
+  offset: 0, 0
+  index: -1
+parts/right-arm
+  rotate: false
+  xy: 637, 2
+  size: 165, 318
+  orig: 165, 318
+  offset: 0, 0
+  index: -1
+parts/right-leg
+  rotate: false
+  xy: 805, 128
+  size: 192, 234
+  orig: 192, 234
+  offset: 0, 0
+  index: -1
+parts/torso
+  rotate: true
+  xy: 470, 322
+  size: 276, 333
+  orig: 276, 333
+  offset: 0, 0
+  index: -1

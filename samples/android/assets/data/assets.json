@@ -1,0 +1,28 @@
+{
+"base" : [
+	{	
+		"type" : "com.badlogic.gdx.graphics.Texture",
+		"path" : "data/loading_screen/background.png"
+	}
+], 
+"loading_screen" : [
+	{	
+		"type" : "com.badlogic.gdx.graphics.Texture",
+		"path" : "data/loading_screen/logo.png"
+	},
+	{	
+		"type" : "com.badlogic.gdx.graphics.Texture",
+		"path" : "data/loading_screen/progress_bar.png"
+	},
+	{	
+		"type" : "com.badlogic.gdx.graphics.Texture",
+		"path" : "data/loading_screen/progress_bar_base.png"
+	}
+],
+"game_screen" : [
+	{	
+		"type" : "com.cookbook.animation.SpriteAnimationData",
+		"path" : "data/caveman-sheet.json"
+	}
+]
+}

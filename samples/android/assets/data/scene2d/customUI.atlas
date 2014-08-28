@@ -1,0 +1,33 @@
+
+customUI.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+default
+  rotate: false
+  xy: 2, 39
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+left_arrow
+  rotate: false
+  xy: 2, 5
+  size: 17, 32
+  orig: 17, 32
+  offset: 0, 0
+  index: -1
+right_arrow
+  rotate: false
+  xy: 260, 135
+  size: 17, 32
+  orig: 17, 32
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

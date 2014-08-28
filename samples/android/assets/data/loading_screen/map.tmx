@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="45" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Patrones" tilewidth="16" tileheight="16">
+  <image source="patrons.png" width="16" height="32"/>
+ </tileset>
+ <imagelayer name="Fondo" width="80" height="45">
+  <image source="background.png"/>
+ </imagelayer>
+ <layer name="Patrones" width="80" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt0MEJACEAA0G1/6JPW3AfcjAD+Yedg1trb74+8WP6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6Nfo1+jX6NaffB/M6AIg=
+  </data>
+ </layer>
+</map>

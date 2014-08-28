@@ -1,0 +1,50 @@
+[
+	{
+		name : "data/sfx/sfx_01.wav",
+		duration : 4,
+		falloffStart : 1,
+		maxDistance : 10
+	},
+	
+	{
+		name : "data/sfx/sfx_02.wav",
+		duration : 4,
+		falloffStart : 1,
+		maxDistance : 10
+	},
+	
+	{
+		name : "data/sfx/sfx_03.mp3",
+		duration : 4,
+		falloffStart : 1,
+		maxDistance : 10
+	},
+	
+	{
+		name : "data/sfx/sfx_04.wav",
+		duration : 4,
+		falloffStart : 1,
+		maxDistance : 10
+	},
+	
+	{
+		name : "data/sfx/sfx_05.mp3",
+		duration : 4,
+		falloffStart : 1,
+		maxDistance : 10
+	},
+	
+	{
+		name : "data/sfx/sfx_06.mp3",
+		duration : 4,
+		falloffStart : 1,
+		maxDistance : 10
+	},
+	
+	{
+		name : "data/sfx/sfx_07.wav",
+		duration : 4,
+		falloffStart : 1,
+		maxDistance : 10
+	}
+]

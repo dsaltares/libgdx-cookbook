@@ -1,0 +1,16 @@
+<Credits>
+	<Book year="2014" pages="300" >Libgdx Game Development Cookbook</Book>
+	
+	<Authors>
+		<Author>David Saltares Márquez</Author>
+		<Author>Alberto Cejas Sánchez</Author>
+	</Authors>
+	
+	<Reviewers>
+		<Reviewer>Manuel Palomo Duarte</Reviewer>
+		<Reviewer>Simon Fleming</Reviewer>
+		<Reviewer>Andre Schmode</Reviewer>
+		<Reviewer>Justin Shapcott</Reviewer>
+		<Reviewer>Jon Renner</Reviewer>
+	</Reviewers>
+</Credits>

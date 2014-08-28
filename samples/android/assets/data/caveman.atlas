@@ -1,0 +1,193 @@
+caveman-sheet.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+caveman0023
+  rotate: false
+  xy: 1089, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0017
+  rotate: false
+  xy: 363, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0036
+  rotate: false
+  xy: 968, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0032
+  rotate: false
+  xy: 484, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0026
+  rotate: false
+  xy: 1452, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0022
+  rotate: false
+  xy: 968, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0016
+  rotate: false
+  xy: 242, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0039
+  rotate: false
+  xy: 1331, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0031
+  rotate: false
+  xy: 363, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0035
+  rotate: false
+  xy: 847, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0029
+  rotate: false
+  xy: 121, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0021
+  rotate: false
+  xy: 847, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0025
+  rotate: false
+  xy: 1331, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0019
+  rotate: false
+  xy: 605, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0040
+  rotate: false
+  xy: 1452, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0038
+  rotate: false
+  xy: 1210, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0015
+  rotate: false
+  xy: 121, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0030
+  rotate: false
+  xy: 242, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0034
+  rotate: false
+  xy: 726, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0028
+  rotate: false
+  xy: 0, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0020
+  rotate: false
+  xy: 726, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0024
+  rotate: false
+  xy: 1210, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0018
+  rotate: false
+  xy: 484, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0037
+  rotate: false
+  xy: 1089, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0014
+  rotate: false
+  xy: 0, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0033
+  rotate: false
+  xy: 605, 175
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1
+caveman0027
+  rotate: false
+  xy: 1573, 0
+  size: 121, 175
+  orig: 121, 175
+  offset: 0, 0
+  index: -1

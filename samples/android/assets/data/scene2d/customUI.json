@@ -1,0 +1,26 @@
+{
+com.badlogic.gdx.graphics.Color: {
+	green: { a: 1, b: 0, g: 1, r: 0 },
+	white: { a: 1, b: 1, g: 1, r: 1 },
+	red: { a: 1, b: 0, g: 0, r: 1 },
+	gray: { a: 1, b: 0.74, g: 0.74, r: 0.74 },
+	black: { a: 1, b: 0, g: 0, r: 0 }
+},
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	goldDraw: { name: white, color: { r: 1, g: 0.84, b: 0, a: 1 } },
+	grayDraw: { name: white, color: { r: 0.74, g: 0.74, b: 0.74, a: 1 } },
+	darkGrayDraw: { name: white, color: { r: 0.84, g: 0.84, b: 0.84, a: 1 } }
+},
+com.badlogic.gdx.graphics.g2d.BitmapFont: { default-font: { file: default.fnt } 
+},
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: { font: default-font, fontColor: white }
+},
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: { down: grayDraw, up: darkGrayDraw, font: default-font, fontColor: black }
+},
+com.cookbook.scene2d.LevelSelector$LevelSelectorStyle: {
+	default: { leftArrow: left_arrow, rightArrow: right_arrow, background: goldDraw, textButtonStyle: default
+	}
+}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "David",
+	"experience": 2534,
+
+	"strength": 6,
+	"dexterity": 8,
+	"intelligence": 6,
+
+	"items" : [
+		{ name: "iron-sword", number: 1 },
+		{ name: "wooden-shield", number: 1 },
+		{ name: "leather-armor", number: 1 },
+		{ name: "leather-boots", number: 1 },
+		{ name: "healing-potion", number: 3 },
+		{ name: "poison-herbs", number: 2 }
+	]
+}

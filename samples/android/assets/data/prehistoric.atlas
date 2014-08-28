@@ -1,0 +1,26 @@
+
+prehistoric.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background
+  rotate: false
+  xy: 1, 1
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+trex
+  rotate: false
+  xy: 1283, 478
+  size: 179, 243
+  orig: 179, 243
+  offset: 0, 0
+  index: -1
+caveman
+  rotate: false
+  xy: 1283, 320
+  size: 83, 156
+  orig: 83, 156
+  offset: 0, 0
+  index: -1

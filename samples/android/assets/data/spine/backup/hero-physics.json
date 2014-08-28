@@ -1,0 +1,75 @@
+{
+	"type": "dynamic",
+	"fixedRotation": "true",
+	"bullet": "true",
+	"linearDamping" : "2.5",
+	"angularDamping" : "0.0",
+	"gravityScale": "6.0",
+	"active": "true",
+	"massData": {
+		"i": "1.0",
+		"mass": "70.0"
+	},
+	"fixtures": [{
+		"id": "main",
+		"density": "1.0",
+		"restitution": "0.0",
+		"friction": "0.2",
+		"shape": {
+			"type": "polygon",
+			"width": "0.45",
+			"height": "1.1",
+			"centerX": "0.0",
+			"centerY": "1.25"
+		},
+		"filter": {
+			"categoryBits": "hero",
+			"maskBits":  ["level"]
+		}
+	},
+	{
+		"id": "foot",
+		"isSensor": "true",
+		"shape": {
+			"type": "polygon",
+			"width": "0.4",
+			"height": "0.15",
+			"centerX": "0.0",
+			"centerY": "0.0"
+		},
+		"filter": {
+			"categoryBits": "hero",
+			"maskBits":  ["level"]
+		}
+	},
+	{
+		"id": "right",
+		"isSensor": "true",
+		"shape": {
+			"type": "polygon",
+			"width": "0.3",
+			"height": "0.5",
+			"centerX": "0.40",
+			"centerY": "1.25"
+		},
+		"filter": {
+			"categoryBits": "hero",
+			"maskBits":  ["level"]
+		}
+	},
+	{
+		"id": "left",
+		"isSensor": "true",
+		"shape": {
+			"type": "polygon",
+			"width": "0.3",
+			"height": "0.5",
+			"centerX": "-0.40",
+			"centerY": "1.25"
+		},
+		"filter": {
+			"categoryBits": "hero",
+			"maskBits":  ["level"]
+		}
+	}]
+}

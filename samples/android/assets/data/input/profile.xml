@@ -1,0 +1,47 @@
+<InputProfile>
+	<context name="MainMenu" >
+		<actions>
+			<action name="NextOption">
+				<key code="Right" />
+			</action>
+			
+			<action name="PreviousOption">
+				<key code="Left" />
+			</action>
+			
+			<action name="SelectOption">
+				<key code="Enter" />
+			</action>
+		</actions>
+	</context>
+	
+	<context name="Game" >
+		<states>
+			<state name="Crouch">
+				<key code="Down" />
+			</state>
+			
+			<state name="LookUp">
+				<key code="Up" />
+			</state>
+			
+			<state name="MoveRight">
+				<key code="Right" />
+			</state>
+			
+			<state name="MoveLeft">
+				<key code="Left" />
+			</state>
+		</states>
+		
+		<actions>
+			<action name="Jump">
+				<key code="A" />
+			</action>
+			
+			<action name="Shoot">
+				<key code="S" />
+			</action>
+		</actions>
+	</context>
+</InputProfile>
