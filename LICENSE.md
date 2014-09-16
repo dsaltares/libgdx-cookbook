@@ -1,6 +1,6 @@
 ##Libgdx Cross-platform Game Development Cookbook license
 
-This file describes the licenses for material accompanying the book [Libgdx Cross-platform Game Development Cookbook](https://www.packtpub.com/game-development/libgdx-cross-platform-game-development-cookbook). Copyright (c) 2014 Artur David Saltares, Alberto Cejas.
+This file describes the licenses for material accompanying the book [Libgdx Cross-platform Game Development Cookbook](https://www.packtpub.com/game-development/libgdx-cross-platform-game-development-cookbook). Copyright (c) 2014 David Saltares, Alberto Cejas.
 
 ### Source code
 
