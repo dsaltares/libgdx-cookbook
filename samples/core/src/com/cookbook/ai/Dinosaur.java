@@ -1,17 +1,17 @@
 package com.cookbook.ai;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.ai.Agent;
 import com.badlogic.gdx.ai.fsm.DefaultStateMachine;
 import com.badlogic.gdx.ai.fsm.State;
 import com.badlogic.gdx.ai.fsm.StateMachine;
-import com.badlogic.gdx.ai.msg.MessageDispatcher;
+import com.badlogic.gdx.ai.msg.MessageManager;
 import com.badlogic.gdx.ai.msg.Telegram;
+import com.badlogic.gdx.ai.msg.Telegraph;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.utils.TimeUtils;
 import com.cookbook.ai.Caveman.CavemanState;
 
-public class Dinosaur implements Agent {
+public class Dinosaur implements Telegraph {
 
 	private static final String TAG = "Dinosaur";
 	
@@ -43,8 +43,7 @@ public class Dinosaur implements Agent {
 			}
 
 			@Override
-			public boolean onMessage(Telegram telegram) {
-				// TODO Auto-generated method stub
+			public boolean onMessage(Dinosaur entity, Telegram telegram) {
 				return false;
 			}
 		},
@@ -61,7 +60,7 @@ public class Dinosaur implements Agent {
 				dinosaur.decreaseEnergy(.05f);
 				// 1 in 1000
 				if (MathUtils.randomBoolean(0.001f) && dinosaur.cavemanInState(CavemanState.HUNTING)) {
-					MessageDispatcher.getInstance().dispatchMessage(
+					MessageManager.getInstance().dispatchMessage(
 							0.0f, // no delay
 							dinosaur, dinosaur.caveman, MessageType.GRRRRRRRR, null);
 					
@@ -81,8 +80,7 @@ public class Dinosaur implements Agent {
 			}
 
 			@Override
-			public boolean onMessage(Telegram telegram) {
-				// TODO Auto-generated method stub
+			public boolean onMessage(Dinosaur entity, Telegram telegram) {
 				return false;
 			}
 		},
@@ -110,10 +108,8 @@ public class Dinosaur implements Agent {
 				// TODO Auto-generated method stub
 				
 			}
-
 			@Override
-			public boolean onMessage(Telegram telegram) {
-				// TODO Auto-generated method stub
+			public boolean onMessage(Dinosaur entity, Telegram telegram) {
 				return false;
 			}
 			

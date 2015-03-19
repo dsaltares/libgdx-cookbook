@@ -1,19 +1,15 @@
 package com.cookbook.samples;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.ai.Agent;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.math.Vector3;
-import com.badlogic.gdx.utils.viewport.FitViewport;
-import com.badlogic.gdx.utils.viewport.Viewport;
 import com.cookbook.ai.Caveman;
 import com.cookbook.ai.Dinosaur;
 
 public class ArtificialIntelligenceSample extends GdxSample {
 	private static final String TAG = "AISample";
 	
-	private Agent caveman, dinosaur;
+	private Caveman caveman;
+	private Dinosaur dinosaur;
 	
 	@Override
 	public void create () {

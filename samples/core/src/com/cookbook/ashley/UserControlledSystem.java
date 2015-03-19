@@ -18,7 +18,7 @@ public class UserControlledSystem extends IteratingSystem {
 	private Camera camera;
 	
 	public UserControlledSystem(Camera camera) {
-		super(Family.getFor(TransformComponent.class, MovementComponent.class, UserControlledComponent.class));
+		super(Family.all(TransformComponent.class, MovementComponent.class, UserControlledComponent.class).get());
 		src = new Vector2();
 		dest = new Vector3();
 		

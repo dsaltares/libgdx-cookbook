@@ -1,15 +1,15 @@
 package com.cookbook.ai;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.ai.Agent;
 import com.badlogic.gdx.ai.fsm.DefaultStateMachine;
 import com.badlogic.gdx.ai.fsm.State;
 import com.badlogic.gdx.ai.fsm.StateMachine;
 import com.badlogic.gdx.ai.msg.Telegram;
+import com.badlogic.gdx.ai.msg.Telegraph;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.utils.TimeUtils;
 
-public class Caveman implements Agent {
+public class Caveman implements Telegraph {
 
 	private static final String TAG = "Caveman";
 	
@@ -43,8 +43,7 @@ public class Caveman implements Agent {
 			}
 
 			@Override
-			public boolean onMessage(Telegram telegram) {
-				// TODO Auto-generated method stub
+			public boolean onMessage(Caveman entity, Telegram telegram) {
 				return false;
 			}
 		},
@@ -74,8 +73,7 @@ public class Caveman implements Agent {
 			}
 
 			@Override
-			public boolean onMessage(Telegram telegram) {
-				// TODO Auto-generated method stub
+			public boolean onMessage(Caveman entity, Telegram telegram) {
 				return false;
 			}
 		},
@@ -122,8 +120,7 @@ public class Caveman implements Agent {
 			}
 
 			@Override
-			public boolean onMessage(Telegram telegram) {
-				// TODO Auto-generated method stub
+			public boolean onMessage(Caveman entity, Telegram telegram) {
 				return false;
 			}
 		},
@@ -149,10 +146,9 @@ public class Caveman implements Agent {
 			public void exit(Caveman caveman) {
 				
 			}
-
+			
 			@Override
-			public boolean onMessage(Telegram telegram) {
-				// TODO Auto-generated method stub
+			public boolean onMessage(Caveman entity, Telegram telegram) {
 				return false;
 			}
 		},
@@ -188,13 +184,10 @@ public class Caveman implements Agent {
 			}
 
 			@Override
-			public boolean onMessage(Telegram telegram) {
+			public boolean onMessage(Caveman entity, Telegram telegram) {
 				if (telegram.message == MessageType.GRRRRRRRR) {
-					Caveman caveman = (Caveman)(telegram.receiver);
-					
-					caveman.threatened = true;
-					
-					caveman.getFSM().changeState(RUN_TO_HOME);
+					entity.threatened = true;
+					entity.getFSM().changeState(RUN_TO_HOME);
 
 					return true;
 				}
@@ -238,8 +231,7 @@ public class Caveman implements Agent {
 			}
 
 			@Override
-			public boolean onMessage(Telegram telegram) {
-				// TODO Auto-generated method stub
+			public boolean onMessage(Caveman entity, Telegram telegram) {
 				return false;
 			}
 			
@@ -272,8 +264,7 @@ public class Caveman implements Agent {
 			}
 
 			@Override
-			public boolean onMessage(Telegram telegram) {
-				// TODO Auto-generated method stub
+			public boolean onMessage(Caveman entity, Telegram telegram) {
 				return false;
 			}
 		};

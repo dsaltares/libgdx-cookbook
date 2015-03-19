@@ -30,7 +30,7 @@ public class RenderSystem extends EntitySystem {
 
 	@Override
 	public void addedToEngine(Engine engine) {
-		entities = engine.getEntitiesFor(Family.getFor(TransformComponent.class, TextureComponent.class, SizeComponent.class));
+		entities = engine.getEntitiesFor(Family.all(TransformComponent.class, TextureComponent.class, SizeComponent.class).get());
 	}
 
 	@Override

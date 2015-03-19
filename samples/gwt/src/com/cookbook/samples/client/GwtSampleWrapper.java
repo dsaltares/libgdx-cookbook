@@ -17,7 +17,6 @@
 package com.cookbook.samples.client;
 
 import com.cookbook.samples.client.WebResolver;
-
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
@@ -235,16 +234,6 @@ public class GwtSampleWrapper extends GdxSample {
 		}
 
 		@Override
-		public void getTextInput (TextInputListener listener, String title, String text) {
-			input.getTextInput(listener, title, text);
-		}
-
-		@Override
-		public void getPlaceholderTextInput (TextInputListener listener, String title, String placeholder) {
-			input.getPlaceholderTextInput(listener, title, placeholder);
-		}
-
-		@Override
 		public void setOnscreenKeyboardVisible (boolean visible) {
 			input.setOnscreenKeyboardVisible(visible);
 		}
@@ -353,6 +342,13 @@ public class GwtSampleWrapper extends GdxSample {
 		@Override
 		public boolean isCatchBackKey() {
 			return input.isCatchBackKey();
+		}
+
+		@Override
+		public void getTextInput(TextInputListener listener, String title,
+				String text, String hint) {
+			// TODO Auto-generated method stub
+			
 		}
 	}
 
