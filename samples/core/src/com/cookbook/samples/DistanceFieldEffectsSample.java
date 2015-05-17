@@ -41,7 +41,7 @@ public class DistanceFieldEffectsSample extends GdxSample {
 		
 		font = new BitmapFont(Gdx.files.internal("data/fonts/pacifico-distance.fnt"));
 		font.setColor(Color.valueOf("5fbcd3"));
-		font.setScale(3.0f);
+		font.getData().setScale(3.0f);
 		
 		Texture texture = font.getRegion().getTexture();
 		texture.setFilter(TextureFilter.Linear, TextureFilter.Linear);

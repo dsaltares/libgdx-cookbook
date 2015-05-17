@@ -28,7 +28,7 @@ public class InputPollingSample extends GdxSample {
 		viewport = new FitViewport(SCENE_WIDTH, SCENE_HEIGHT, camera);
 		batch = new SpriteBatch();
 		font = new BitmapFont(Gdx.files.internal("data/fonts/oswald-32.fnt"));
-		font.setScale(0.8f);
+		font.getData().setScale(0.8f);
 		font.setColor(Color.WHITE);
 		camera.position.set(SCENE_WIDTH * 0.5f, SCENE_HEIGHT * 0.5f, 0.0f);
 	}

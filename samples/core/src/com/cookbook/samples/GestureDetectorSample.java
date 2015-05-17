@@ -41,7 +41,7 @@ public class GestureDetectorSample extends GdxSample {
 		messages = new Array<String>();
 		
 		font.setColor(Color.WHITE);
-		font.setScale(0.8f);
+		font.getData().setScale(0.8f);
 		camera.position.set(SCENE_WIDTH * 0.5f, SCENE_HEIGHT * 0.5f, 0.0f);
 		gestureDetector = new GestureDetector(HALF_TAP_SQUARE_SIZE,
 											  TAP_COUNT_INTERVAL,

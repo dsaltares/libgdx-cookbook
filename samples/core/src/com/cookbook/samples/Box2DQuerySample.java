@@ -7,6 +7,7 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Input.Buttons;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
@@ -48,6 +49,7 @@ public class Box2DQuerySample extends GdxSample {
 	// Contacts
 	String title = null;
 	BitmapFont font;
+	GlyphLayout layout = new GlyphLayout();
 	float titleWidth;
 
 	Array<Body> bodiesWithinArea;
@@ -138,7 +140,8 @@ public class Box2DQuerySample extends GdxSample {
 
 			// Show contact info
 			title = fixture.getBody().getUserData() + " at [" + point.x + ";" + point.y + "]";
-			titleWidth = font.getBounds(title).width * 0.5f;
+			layout.setText(font, title);
+			titleWidth = layout.width * 0.5f;
 			return 1; // Continue with the rest of the fixtures
 		}
 	};

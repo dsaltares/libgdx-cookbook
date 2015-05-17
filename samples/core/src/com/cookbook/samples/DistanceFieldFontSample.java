@@ -35,11 +35,11 @@ public class DistanceFieldFontSample extends GdxSample {
 		
 		normalFont = new BitmapFont(Gdx.files.internal("data/fonts/oswald.fnt"));
 		normalFont.setColor(0.0f, 0.56f, 1.0f, 1.0f);
-		normalFont.setScale(4.5f);
+		normalFont.getData().setScale(4.5f);
 		
 		distanceFont = new BitmapFont(Gdx.files.internal("data/fonts/oswald-distance.fnt"));
 		distanceFont.setColor(0.0f, 0.56f, 1.0f, 1.0f);
-		distanceFont.setScale(4.5f);
+		distanceFont.getData().setScale(4.5f);
 		
 		Texture texture = distanceFont.getRegion().getTexture();
 		texture.setFilter(TextureFilter.Linear, TextureFilter.Linear);

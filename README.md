@@ -9,4 +9,5 @@ Please read the [license](https://github.com/siondream/libgdx-cookbook/blob/mast
 ### Versions
 
 * [`cookbook-1.0.0`](https://github.com/siondream/libgdx-cookbook/releases/tag/cookbook-1.0.0) matches the book.
-* [`cookbook-1.1.0`](https://github.com/siondream/libgdx-cookbook/releases/tag/cookbook1.1.0) update to use the latest versions of Libgdx, Ashley, gdx-ai and RoboVM.
+* [`cookbook-1.1.0`](https://github.com/siondream/libgdx-cookbook/releases/tag/cookbook-1.1.0) Libgdx 1.5.5, gdx-ai 1.5.0 and Ashley 1.4.0 
+* [`cookbook-1.2.0`](https://github.com/siondream/libgdx-cookbook/releases/tag/cookbook-1.2.0) Libgdx 1.6.0, gdx-ai 1.5.0 and Ashley 1.5.0

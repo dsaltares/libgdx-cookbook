@@ -39,7 +39,7 @@ public class GamepadSample extends GdxSample {
 		messages = new Array<String>();
 		
 		font.setColor(Color.WHITE);
-		font.setScale(1.5f);
+		font.getData().setScale(1.5f);
 		camera.position.set(SCENE_WIDTH * 0.5f, SCENE_HEIGHT * 0.5f, 0.0f);
 		
 		Controllers.addListener(new ControllerEventHandler());

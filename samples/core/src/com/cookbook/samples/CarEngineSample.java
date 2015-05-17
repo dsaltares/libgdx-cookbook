@@ -41,7 +41,7 @@ public class CarEngineSample extends GdxSample {
 		font = new BitmapFont();
 		
 		font.setColor(Color.WHITE);
-		font.setScale(2.5f);
+		font.getData().setScale(2.5f);
 		camera.position.set(VIRTUAL_WIDTH * 0.5f, VIRTUAL_HEIGHT * 0.5f, 0.0f);
 		
 		idle = Gdx.audio.newSound(Gdx.files.internal("data/sfx/car-idle.wav"));

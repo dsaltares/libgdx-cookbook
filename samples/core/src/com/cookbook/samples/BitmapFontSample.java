@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
@@ -58,11 +59,17 @@ public class BitmapFontSample extends GdxSample {
 		font.setColor(Color.WHITE);
 		font.draw(batch, "This is a one line string", 20.0f, VIRTUAL_HEIGHT - 50.0f);
 		font.setColor(Color.RED);
-		font.setScale(1.5f);
-		font.drawMultiLine(batch, "This is a scaled red\nmultiline string", 20.0f, VIRTUAL_HEIGHT - 150.0f);
+		font.getData().setScale(1.5f);
+		font.draw(batch, "This is a scaled red\nmultiline string", 20.0f, VIRTUAL_HEIGHT - 150.0f);
 		font.setColor(Color.BLUE);
-		font.setScale(1.0f);
-		font.drawWrapped(batch, "This is a blue string wrapped to fit inside a 900px box. BitmapFont will have to insert line breaks somewhere", 20.0f, VIRTUAL_HEIGHT - 400.0f, 900.0f);
+		font.getData().setScale(1.0f);
+		font.draw(batch,
+				  "This is a blue string wrapped to fit inside a 900px box. BitmapFont will have to insert line breaks somewhere",
+				  20.0f,
+				  VIRTUAL_HEIGHT - 400.0f,
+				  900.0f,
+				  Align.left,
+				  true);
 		batch.end();
 	}
 

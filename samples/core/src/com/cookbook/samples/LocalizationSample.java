@@ -13,6 +13,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.I18NBundle;
 import com.cookbook.localization.LanguageManager;
 
@@ -113,7 +114,7 @@ public class LocalizationSample extends GdxSample {
 		viewport.getCamera().project(point.set(SCENE_WIDTH*0.5f, 6.5f, 0));
 		font.draw(batch, introduction, textXOrigin, point.y);
 		viewport.getCamera().project(point.set(SCENE_WIDTH*0.5f, 6.2f, 0));
-		font.drawWrapped(batch, body, textXOrigin, point.y, textWidth);
+		font.draw(batch, body, textXOrigin, point.y, textWidth, Align.left, true);
 		batch.end();
 
 	}

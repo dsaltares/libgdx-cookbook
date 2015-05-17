@@ -6,6 +6,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
@@ -56,6 +57,7 @@ public class Box2DJointsSample extends GdxSample {
 	// Title
 	String title = null;
 	BitmapFont font;
+	GlyphLayout layout = new GlyphLayout();
 	float titleWidth;
 
 	// Active bodies and joints
@@ -454,7 +456,9 @@ public class Box2DJointsSample extends GdxSample {
 
 	private void setTitle(String newTitle) {
 		title = newTitle;
-		titleWidth = font.getBounds(title).width * 0.5f;
+
+		layout.setText(font, "title");
+		titleWidth = layout.width * 0.5f;
 	}
 	
 	private Body createSphere(BodyType type, float x, float y, float d, float r, float f, float radius) {

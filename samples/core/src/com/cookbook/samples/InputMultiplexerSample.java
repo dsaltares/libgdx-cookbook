@@ -33,7 +33,7 @@ public class InputMultiplexerSample extends GdxSample {
 		viewport = new FitViewport(SCENE_WIDTH, SCENE_HEIGHT, camera);
 		batch = new SpriteBatch();
 		font = new BitmapFont(Gdx.files.internal("data/fonts/oswald-32.fnt"));
-		font.setScale(0.8f);
+		font.getData().setScale(0.8f);
 		messages = new Array<ScreenLogMessage>();
 		multiplexer = new InputMultiplexer();
 		

@@ -38,7 +38,7 @@ public class InputMappingSample extends GdxSample implements InputActionListener
 		font = new BitmapFont();
 		messages = new Array<String>();
 		
-		font.setScale(2.0f);
+		font.getData().setScale(2.0f);
 		font.setColor(Color.WHITE);
 		camera.position.set(SCENE_WIDTH * 0.5f, SCENE_HEIGHT * 0.5f, 0.0f);
 		
