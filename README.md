@@ -8,7 +8,9 @@ Please read the [license](https://github.com/saltares/libgdx-cookbook/blob/maste
 
 ### Versions
 
-The book launched on November 2014 
+The book launched on November 2014 and used the most up to date Libgdx release at the time. However, Libgdx and other libraries have since been updated. Fortunately, we have updated this repository regularly to make sure everything is still compatible. Whenever our dependencies introduced API breaking changes, we fixed references appropriately.
+
+Rest assured though, not much has changed since the book came out. It's still the best Libgdx book out there!
 
 * [`cookbook-1.0.0`](https://github.com/saltares/libgdx-cookbook/releases/tag/cookbook-1.0.0) Libgdx 1.3.2, gdx-ai 1.2.0, Ashley 1.1.0 and box2dlights 1.2. This is the version that **matches the book**.
 * [`cookbook-1.1.0`](https://github.com/saltares/libgdx-cookbook/releases/tag/cookbook-1.1.0) Libgdx 1.5.5, gdx-ai 1.5.0 and Ashley 1.4.0 
