@@ -8,6 +8,8 @@ Please read the [license](https://github.com/saltares/libgdx-cookbook/blob/maste
 
 ### Versions
 
-* [`cookbook-1.0.0`](https://github.com/saltares/libgdx-cookbook/releases/tag/cookbook-1.0.0) matches the book.
+The book launched on November 2014 
+
+* [`cookbook-1.0.0`](https://github.com/saltares/libgdx-cookbook/releases/tag/cookbook-1.0.0) Libgdx 1.3.2, gdx-ai 1.2.0, ashley 1.1.0, box2dlights 1.2. This is the version that **matches the book**.
 * [`cookbook-1.1.0`](https://github.com/saltares/libgdx-cookbook/releases/tag/cookbook-1.1.0) Libgdx 1.5.5, gdx-ai 1.5.0 and Ashley 1.4.0 
 * [`cookbook-1.2.0`](https://github.com/saltares/libgdx-cookbook/releases/tag/cookbook-1.2.0) Libgdx 1.6.0, gdx-ai 1.5.0 and Ashley 1.5.0
