@@ -22,6 +22,7 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Container;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.cookbook.tween.ActorAccessor;
@@ -35,8 +36,6 @@ public class TweenEngineSample extends GdxSample {
 	private OrthographicCamera camera;
 	private Viewport viewport;
 	private SpriteBatch batch;
-
-	private Vector3 point = new Vector3();
 
 	private Stage stage;
 	private BitmapFont font;
@@ -65,15 +64,15 @@ public class TweenEngineSample extends GdxSample {
 		Label.LabelStyle ls = new Label.LabelStyle(font, Color.WHITE);
 
 		auxLbl1 = new Label("DAVID SALTARES MARQUEZ", ls);
-		auxLbl1.setPosition(SCENE_WIDTH*.5f, SCENE_HEIGHT+100);
+		auxLbl1.setPosition(SCENE_WIDTH*.5f, SCENE_HEIGHT+100, Align.center);
 
 		auxLbl2 = new Label("ALBERTO CEJAS SANCHEZ", ls);
-		auxLbl2.setPosition(SCENE_WIDTH*.5f, -100);
+		auxLbl2.setPosition(SCENE_WIDTH*.5f, -100, Align.center);
 
 		auxLbl3 = new Label("AND", ls);
 		wrapper = new Container<Label>(auxLbl3);
 		wrapper.setTransform(true);
-		wrapper.setPosition(-100, SCENE_HEIGHT*.5f);
+		wrapper.setPosition(-100, SCENE_HEIGHT*.5f, Align.center);
 
 		stage.addActor(auxLbl1);
 		stage.addActor(auxLbl2);
@@ -133,16 +132,16 @@ public class TweenEngineSample extends GdxSample {
 				if(tween.getUserData().toString().compareTo("section1") == 0) {
 					auxLbl1.setText("IN ASSOCIATION WITH");
 					auxLbl1.pack();
-					auxLbl1.setPosition(SCENE_WIDTH*.5f, SCENE_HEIGHT * .5f + 100);
+					auxLbl1.setPosition(SCENE_WIDTH*.5f, SCENE_HEIGHT * .5f + 100, Align.center);
 
 					auxLbl2.setText("PRESENT");
 					auxLbl2.pack();
-					auxLbl2.setPosition(SCENE_WIDTH*.5f, SCENE_HEIGHT * .5f + 100);
+					auxLbl2.setPosition(SCENE_WIDTH*.5f, SCENE_HEIGHT * .5f + 100, Align.center);
 
 					packtLogo = new Texture(Gdx.files.internal("data/packt.png"));
 					packtImg = new Image(packtLogo);
 					packtImg.pack();
-					packtImg.setPosition(SCENE_WIDTH *.5f, SCENE_HEIGHT * .5f);
+					packtImg.setPosition(SCENE_WIDTH *.5f, SCENE_HEIGHT * .5f, Align.center);
 					Color color = packtImg.getColor();
 					color.a = 0;
 					packtImg.setColor(color);
@@ -187,11 +186,11 @@ public class TweenEngineSample extends GdxSample {
 
 					auxLbl1.setText("LIBGDX FOR CROSS PLATFORM GAME");
 					auxLbl1.pack();
-					auxLbl1.setPosition(SCENE_WIDTH * .5f, SCENE_HEIGHT + 100f);
+					auxLbl1.setPosition(SCENE_WIDTH * .5f, SCENE_HEIGHT + 100f, Align.center);
 
 					auxLbl3.setText("DEVELOPMENT COOKBOOK");
 					auxLbl3.pack();
-					wrapper.setPosition(SCENE_WIDTH * .5f, SCENE_HEIGHT * .5f);
+					wrapper.setPosition(SCENE_WIDTH * .5f, SCENE_HEIGHT * .5f, Align.center);
 					
 					Timeline.createSequence()
 
