@@ -41,6 +41,7 @@ public class SwingCanvasSample extends JFrame implements SampleLauncher {
 		Container container = getContentPane();
 		
 		if (canvas != null) {
+			canvas.stop();
 			container.remove(canvas.getCanvas());
 		}
 		
