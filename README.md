@@ -15,4 +15,4 @@ Rest assured though, not much has changed since the book came out. It's still th
 * [`cookbook-1.0.0`](https://github.com/saltares/libgdx-cookbook/releases/tag/cookbook-1.0.0) Libgdx 1.3.2, gdx-ai 1.2.0, Ashley 1.1.0 and box2dlights 1.2. This is the version that **matches the book**.
 * [`cookbook-1.1.0`](https://github.com/saltares/libgdx-cookbook/releases/tag/cookbook-1.1.0) Libgdx 1.5.5, gdx-ai 1.5.0 and Ashley 1.4.0 
 * [`cookbook-1.2.0`](https://github.com/saltares/libgdx-cookbook/releases/tag/cookbook-1.2.0) Libgdx 1.6.0, gdx-ai 1.5.0 and Ashley 1.5.0
-* [`cookbook-1.3.0`](https://github.com/saltares/libgdx-cookbook/releases/tag/cookbook-1.2.0) Libgdx 1.6.5, gdx-ai 1.5.0 and Ashley 1.6.0
+* [`cookbook-1.3.0`](https://github.com/saltares/libgdx-cookbook/releases/tag/cookbook-1.3.0) Libgdx 1.6.5, gdx-ai 1.5.0 and Ashley 1.6.0
