@@ -1,5 +1,5 @@
 Derivations of source code cloned from [Saltares 2014, Libgdx Cross-platform Game Development Cookbook]
-without pull request to  
+without pull request to it's original repository
 https://github.com/saltares/libgdx-cookbook
 
 
