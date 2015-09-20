@@ -1,3 +1,8 @@
+Derivations of source code cloned from [Saltares 2014, Libgdx Cross-platform Game Development Cookbook]
+without pull request to it's original repository
+https://github.com/saltares/libgdx-cookbook
+
+
 ![](http://i.imgur.com/zd2KtbO.png?1)
 
 ### Examples for the Libgdx Cross-platform Game Development Cookbook
