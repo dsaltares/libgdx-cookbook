@@ -9,12 +9,12 @@ import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
 import com.badlogic.gdx.ApplicationListener;
-import com.badlogic.gdx.backends.lwjgl.LwjglAWTCanvas;
+import com.badlogic.gdx.backends.lwjgl.LwjglCanvas;
 import com.cookbook.samples.GdxSamples;
 import com.cookbook.samples.desktop.SampleList.SampleLauncher;
 
 public class SwingCanvasSample extends JFrame implements SampleLauncher {
-	LwjglAWTCanvas canvas;
+	LwjglCanvas canvas;
 	SampleList list;
 	
 	public SwingCanvasSample() {
@@ -47,7 +47,7 @@ public class SwingCanvasSample extends JFrame implements SampleLauncher {
 		
 		ApplicationListener sample = GdxSamples.newSample(sampleName);
 		
-		canvas = new LwjglAWTCanvas(sample);
+		canvas = new LwjglCanvas(sample);
 		canvas.getCanvas().setSize(960, 540);
 		container.add(canvas.getCanvas(), BorderLayout.EAST);
 		
