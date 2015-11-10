@@ -25,7 +25,6 @@ import com.badlogic.gdx.InputMultiplexer;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
@@ -331,10 +330,6 @@ public class GwtSampleWrapper extends GdxSample {
 		}
 
 		@Override
-		public void setCursorImage(Pixmap pixmap, int xHotspot, int yHotspot) {
-		}
-
-		@Override
 		public boolean isKeyJustPressed(int key) {
 			return input.isKeyJustPressed(key);
 		}
@@ -349,6 +344,12 @@ public class GwtSampleWrapper extends GdxSample {
 				String text, String hint) {
 			// TODO Auto-generated method stub
 			
+		}
+
+		@Override
+		public boolean isCatchMenuKey() {
+			// TODO Auto-generated method stub
+			return false;
 		}
 	}
 
@@ -680,12 +681,6 @@ public class GwtSampleWrapper extends GdxSample {
 				return new LocalizationSample();
 			}	
 		},
-		
-		/* new Instancer() {
-			public GdxSample instance () {
-				return new SpineSample();
-			}	
-		}, */
 		
 		new Instancer() {
 			public GdxSample instance () {
