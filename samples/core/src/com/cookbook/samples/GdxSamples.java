@@ -33,6 +33,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import com.badlogic.gdx.utils.reflect.ClassReflection;
+import com.badlogic.gdx.utils.reflect.ReflectionException;
+
 
 /** List of GdxSample classes. To be used by the test launchers. If you write your own test, add it in here!
  * 
@@ -118,10 +121,8 @@ public class GdxSamples {
 
 	public static GdxSample newSample (String testName) {
 		try {
-			return forName(testName).newInstance();
-		} catch (InstantiationException e) {
-			e.printStackTrace();
-		} catch (IllegalAccessException e) {
+			return ClassReflection.newInstance(forName(testName));
+		} catch (ReflectionException e) {
 			e.printStackTrace();
 		}
 		return null;
