@@ -75,7 +75,7 @@ public class SoundEffectSample extends GdxSample {
 	
 	@Override
 	public boolean touchDown (int screenX, int screenY, int pointer, int button) {
-		Sound sound = sounds.get(MathUtils.random(sounds.size - 1));
+		Sound sound = sounds.get(Keys.NUM_1 + MathUtils.random(sounds.size - 1));
 		sound.play();
 		
 		Gdx.app.log("SoundEffectSample", "Playing sound");
