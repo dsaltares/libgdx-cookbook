@@ -1,0 +1,5 @@
+language:
+    java
+script:
+    ./environment/gradlew
+    ./samples/gradlew
