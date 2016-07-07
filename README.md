@@ -1,5 +1,7 @@
 ![](http://i.imgur.com/zd2KtbO.png?1)
 
+[![Build Status](https://travis-ci.org/saltares/libgdx-cookbook.svg?branch=master)](https://travis-ci.org/saltares/libgdx-cookbook)
+
 ### Examples for the Libgdx Cross-platform Game Development Cookbook
 
 This repository contains the source code, samples and resources needed to follow the [Libgdx Cross-platform Game Development Cookbook](https://www.packtpub.com/game-development/libgdx-cross-platform-game-development-cookbook) authored by [David Saltares](https://github.com/saltares) and [Alberto Cejas](https://github.com/albertocejas) and published by Packt Publishing.
