@@ -1,5 +1,4 @@
-language:
-    java
+language: java
 script:
-    ./environment/gradlew
-    ./samples/gradlew
+  - bundle exec rake build
+  - bundle exec rake builddoc
