@@ -365,11 +365,12 @@ public class Box2DFixedTimeStepSample extends GdxSample {
 			while (accumulator >= step) {
 				world.step(step, 6, 2);
 				accumulator -= step;
-				
-				if(timeStepType == TimeStep.FIXED_INTERPOLATION)
-					interpolate((float) (accumulator/step));
-				
 			}
+			
+			if(timeStepType == TimeStep.FIXED_INTERPOLATION)
+				interpolate((float) (accumulator/step));
+				
+			
 		}
 
 		// Draw fps and time-step type
