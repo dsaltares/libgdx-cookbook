@@ -9,6 +9,8 @@ gen/
 .project
 .settings/
 .ipr
-.iml
+
+.idea/
+*.iml
 
 /local.properties
