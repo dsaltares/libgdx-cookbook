@@ -181,7 +181,7 @@ public class FrustumCullingSample extends GdxSample {
 		shapeRenderer.end();
 		
 		
-		// Show nº of currently rendered entities
+		// Show n of currently rendered entities
 		batch2.begin();
 		stringBuilder.setLength(0);
 		stringBuilder.append("Rendering: " ).append(renderCount).append("/").append(NUM_OF_ENTITIES);
